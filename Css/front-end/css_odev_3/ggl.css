@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* 3 ayrı bölüm uygulandı */
+/* ul içindeki li işareti kaldırmak için list-style: none uygulandı*/
+
+body{
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px 10px 50px;
+}
+.header-about ul,.header-store ul {
+  display: flex;
+  justify-content: space-around;
+}
+.header-about ul li, .header-store ul li {
+  list-style: none;
+  padding-left: 20px;
+}
+.header-about ul li a, .header-store ul li a {
+  text-decoration: none;
+  color: #5f6368;
+}
+.header-store .signin_btn {
+  width: 50px;
+  height: 20px;
+  background-color: #4485F5;
+  padding: 6px 15px 6px 15px;
+  color: white;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.search .search_input {
+  width:500px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+/* buton içine şekil yerleştirme altta gösterildi */
+.google_voice {
+position: relative;
+bottom: 38px;
+left: 460px;
+color: rgb(55, 5, 238);
+}
+.glass {
+  position: relative;
+  bottom: 55px;
+  left: 20px;
+  color: #ccc;
+}
+.button {
+  border: 1px solid transparent #f2f2f2 ;
+  
+}
+.button .b-1 {
+  width: 130px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-color: #f2f2f2; 
+}
+.button .b-2 {
+  width: 130px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-color: #f2f2f2;
+}
+.footer_a{
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 60px 0px 40px;
+  padding: 20px;
+}
+.footer-1 ul, .footer-2 ul {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-1 ul li, .footer-2 ul li {
+  list-style: none;
+  padding-left: 20px;
+} 
+.footer-1 ul li a, .footer-2 ul li a {
+  text-decoration: none;
+  color: #5f6368;
+}
